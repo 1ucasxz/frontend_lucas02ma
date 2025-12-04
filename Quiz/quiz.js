@@ -35,7 +35,7 @@ function acessoQuiz() {
     }
 
     alert("Primeiro faça o login!")
-    window.location.href = "/frontend/Página de Login/paginaDeLogin.html"
+    window.location.href = "../Página de Login/paginaDeLogin.html"
 
 }
 
@@ -54,7 +54,7 @@ function init(){
     }
 
     login.innerHTML += `
-        <a class="button" href="/frontend/Página de Login/paginaDeLogin.html"> <img src="/frontend/assets/User Branco.png" alt="">Login</a>
+        <a class="button" href="../Página de Login/paginaDeLogin.html"> <img src="/frontend/assets/User Branco.png" alt="">Login</a>
     `
 }
 
