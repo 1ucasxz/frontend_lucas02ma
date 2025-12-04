@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     login.innerHTML += `
-        <a class="button" href="/frontend/Página de Login/paginaDeLogin.html"> <img src="/frontend/assets/User Branco.png" alt="">Login</a>
+        <a class="button" href="../Página de Login/paginaDeLogin.html"> <img src="/frontend/assets/User Branco.png" alt="">Login</a>
     `
 }
 
