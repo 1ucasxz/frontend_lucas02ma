@@ -1,0 +1,418 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --principal: #516570;
+    --background: #DBEDEE;
+    --bege: #FDF8EB;
+    --white: #fff;
+    --black: #000;
+    --text: #323D43;
+}
+
+body {
+    background-color: var(--background);
+    font-size: 1.6rem;
+}
+
+h3{
+  color: var(--white);
+}
+
+header {
+    display: flex;
+    max-width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 6rem;
+    padding: .5rem 4rem;
+    border-radius: 10rem;
+    background-color: var(--principal);
+}
+
+header a {
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+header div a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header div a:hover{
+    color: var(--black);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: .3rem 1.7rem;
+    border-radius: 5rem;
+    border: solid var(--white) .3rem;
+    background: none;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+header button img {
+    width: 1.7rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 12.2rem;
+}
+
+.intro h1 {
+    font-size: 3.2rem;
+    padding-top: 10rem;
+    color: var(--principal);
+    text-transform: uppercase;
+}
+
+.intro div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.9rem;
+    margin-inline: 19.5rem;
+    margin-top: 4.6rem;
+}
+
+.intro div img {
+    width: 42.7rem;
+}
+
+.intro div p {
+    max-width: 53.9rem;
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal);
+    background-image: url(/frontend/assets/Fundo\ Sec\ 1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    border-radius: 6rem 6rem 0rem 0rem;
+    padding: 10rem 17.4rem 29.1rem 17.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 h1 {
+    display: flex;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    color: var(--bege);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5.8rem;
+}
+
+.sec1 .qcima {
+    display: flex;
+    max-width: fit-content;
+    gap: 3.1rem;
+    padding-bottom: 6.7rem;
+}
+
+.sec1 .qbaixo {
+    display: flex;
+    max-width: fit-content;
+    gap: 3.1rem;
+    padding-bottom: 6.7rem;
+}
+
+.sec1 div div {
+    color: var(--bege);
+    width: 34.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.sec1 div div h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sec1 div div p{
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: center;
+    width: 25.7rem;
+    margin: 0 auto;
+}
+
+.sec1 .qcima div {
+    background-image: url(/frontend/assets/Contorno\ quadros.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2.4rem 2.5rem 3.2rem 2.5rem;
+}
+
+.sec1 .qbaixo div {
+    background-image: url(/frontend/assets/Contorno\ quadros.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 2.4rem 2.5rem 4.9rem 2.5rem;
+}
+
+.sec1 a{
+    text-decoration: none;
+    margin-top: 11.1rem;
+}
+
+.sec1 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: none;
+    border: solid var(--white) 0.3rem;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-inline: 0.8rem;
+    padding-block: 0.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec1 button:hover {
+    background-color: var(--white);
+    transition: 0.2s;
+}
+
+.sec1 button img {
+    width: 2.9rem;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    padding: 15rem 17.4rem 7.5rem 17.4rem;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 50% 15%;
+    border-top-right-radius: 50% 15%;
+    margin-top: -15rem;
+}
+
+.sec2 h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    color: var(--principal);
+    margin-bottom: 7.9rem;
+}
+
+.sec2 .qcima {
+    display: flex;
+    max-width: fit-content;
+    margin-bottom: 4.9rem;
+}
+
+.sec2 .qbaixo {
+    display: flex;
+    max-width: fit-content;
+    margin-bottom: 9rem;
+}
+
+.sec2 div div {
+    color: var(--text);
+    width: 34.3rem;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-right: 3.3rem;
+}
+
+.sec2 div div h2{
+    font-size: 1.5rem;
+    text-align:left;
+    max-width: fit-content;
+}
+
+.sec2 div div p{
+    font-size: 1.1rem;
+    text-align: left;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.sec2 .qcima div + div {
+    border-left: solid var(--black) 0.1rem;
+    padding-left: 3.3rem;
+}
+
+.sec2 .qbaixo div + div {
+    border-left: solid var(--black) 0.1rem;
+    padding-left: 3.3rem;
+    margin-right: 3.3rem;
+}
+
+.sec2 a{
+    text-decoration: none;
+    margin-top: 9rem;
+}
+
+.sec2 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: none;
+    border: solid var(--principal) 0.4rem;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    color: var(--principal);
+    text-transform: uppercase;
+    padding-inline: 0.8rem;
+    padding-block: 0.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec2 button:hover {
+    background-color: var(--principal);
+    transition: 0.2s;
+}
+
+.sec2 button img {
+    width: 2.9rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal);
+    padding: 8.7rem 29.1rem 0rem 28.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 5.169rem;
+}
+
+.rodape .newsletter h1 {
+    color: var(--bege);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.rodape .newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.06rem;
+    background-color: var(--white);
+    padding: 1rem 1.4rem;
+    border-radius: 5rem;
+}
+
+.rodape .newsletter form input {
+    width: 60.596rem;
+    height: 3.609rem;
+    border-radius: 5rem;
+    padding-left: 1.5rem;
+}
+
+.rodape .newsletter form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 3.697rem;
+    background: none;
+    border-radius: 5rem ;
+    padding-inline: 1.8rem;
+}
+
+.rodape .info {
+    display: flex;
+    margin-top: 10.808rem;
+    gap: 35rem;
+}
+
+.rodape .info h2 {
+    color: var(--bege);
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 1.7rem;
+}
+
+.rodape .info a {
+    text-decoration: none;
+    color: var(--bege);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.rodape .info a:hover {
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.rodape div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logorodape {
+    margin-top: 10rem;
+    margin-right: 3rem;
+}
+
+.logorodape img{
+    width: 20.3rem;
+    margin-bottom: 3.3rem;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    width: 99vw;
+    padding-block: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}

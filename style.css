@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  :root {
+    font-size: 62.5%;
+    --principal: #516570;
+    --background: #DBEDEE;
+    --bege: #FDF8EB;
+    --white: #fff;
+    --black: #000;
+    --text: #323D43;
+}
+
+  body {
+    background-color: #2f4858;
+    color: white;
+    font-size: 1.6rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-cadastro {
+    background: transparent;
+    border: 0.2rem solid white;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+  
+  .hero {
+    background: url('/frontend/assets/Background.png') no-repeat center center/cover;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+  }
+  
+  .hero-text p {
+    margin-top: 1.0rem;
+    font-size: 1.8rem;
+  }
+  
+  .content {
+    background-color: #425c6c;
+    padding: 6.0rem 4.0rem;
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2.0rem;
+  }
+  
+  .content p {
+    font-size: 1.6rem;
+    max-width: 60rem;
+    margin: 0 auto 3.0rem auto;
+    line-height: 1.6;
+  }
+  
+  .btn-saiba-mais {
+    text-decoration: none;
+    color: white;
+    border: .2rem solid white;
+    padding: 1.0rem 2.0rem;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn-saiba-mais:hover {
+    background-color: white;
+    color: #2f4858;
+  }
+
+
+
+.curiosidades {
+    background-color: #e5f0f2;
+    text-align: center;
+    padding: 6.0rem 2.0rem;
+  }
+  
+  .curiosidades h2 {
+    font-size: 2.2rem;
+    margin-bottom: 4.0rem;
+    color: #2f4858;
+  }
+  
+  .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.0rem;
+    margin-bottom: 4.0rem;
+  }
+
+  .cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.0rem;
+    margin-bottom: 4.0rem;
+  }
+  
+  .card {
+    background-color: #2f4858;
+    color: white;
+    border-radius: 2.0rem;
+    padding: 2.0rem;
+    max-width: 25rem;
+    text-align: center;
+    box-shadow: .5rem .5rem 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 5.0rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pros-contras {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5.0rem 2.0rem;
+    gap: 2.0rem;
+  }
+  
+  .pros, .contras {
+    flex: 1 1 30rem;
+    background-color: #5e7c8b;
+    padding: 3.0rem;
+    border-radius: 2.0rem;
+    color: white;
+  }
+  
+  .contras {
+    background-color: #2f4858;
+  }
+  
+  .pros h3, .contras h3 {
+    font-size: 2.0rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pros ul, .contras ul {
+    list-style: disc inside;
+    line-height: 1.6;
+  }
+  
+  .desenvolvedores {
+    color: var(--black);
+    background-color: #d8f2f2;
+    text-align: center;
+    padding: 6.0rem 2.0rem;
+  }
+  
+  .desenvolvedores h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 4.0rem;
+  }
+  
+  .dev-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4.0rem;
+  }
+  
+  .dev {
+    text-align: center;
+  }
+  
+  .dev img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.0rem;
+  }
+  
+  .dev p {
+    font-weight: bold;
+  }
+  
+  .btn-saiba-mais {
+    display: inline-block;
+    text-decoration: none;
+    color: #2f4858;
+    border: .2px solid #2f4858;
+    padding: 1.0rem 2.0rem;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal);
+    padding: 8.7rem 29.1rem 0rem 28.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 5.169rem;
+}
+
+.rodape .newsletter h1 {
+    color: var(--bege);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.rodape .newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.06rem;
+    background-color: var(--white);
+    padding: 1rem 1.4rem;
+    border-radius: 5rem;
+}
+
+.rodape .newsletter form input {
+    width: 60.596rem;
+    height: 3.609rem;
+    border-radius: 5rem;
+    padding-left: 1.5rem;
+}
+
+.rodape .newsletter form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 3.697rem;
+    background: none;
+    border-radius: 5rem ;
+    padding-inline: 1.8rem;
+}
+
+.rodape .info {
+    display: flex;
+    margin-top: 10.808rem;
+    gap: 35rem;
+}
+
+.rodape .info h2 {
+    color: var(--bege);
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 1.7rem;
+}
+
+.rodape .info a {
+    text-decoration: none;
+    color: var(--bege);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.rodape .info a:hover {
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.rodape div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logorodape {
+    margin-top: 10rem;
+    margin-right: 3rem;
+}
+
+.logorodape img{
+    width: 20.3rem;
+    margin-bottom: 3.3rem;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    width: 99vw;
+    padding-block: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
